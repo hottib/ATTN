@@ -1,0 +1,4 @@
+name: ATTN_env
+channels:
+  - defaults
+prefix: /home/chris/anaconda3/envs/ATTN_env
