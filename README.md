@@ -2,5 +2,6 @@
 Attention hier komm die Menschen
 
 ## Install environment
-	* conda env create -f environment.yml
+Create the environment with
+	* conda env create -f ATTN_env.yml
 
