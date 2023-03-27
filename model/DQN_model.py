@@ -26,6 +26,6 @@ params: n_observations - number of input observations
     # Called with either one element to determine next action, or a batch
     # during optimization. Returns tensor([[left0exp,right0exp]...]).
     def forward(self, x):
-        x = F.relu(self.layer1(x))
-        x = F.relu(self.layer2(x))
+        x = nn.ReLU(self.layer1(x))
+        x = nn.ReLU(self.layer2(x))
         return self.layer3(x)
